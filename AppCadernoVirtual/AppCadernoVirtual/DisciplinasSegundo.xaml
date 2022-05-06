@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppCadernoVirtual.DisciplinasSegundo">
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout>
+
+                <Label Text="- *Ensino Medio* -" HorizontalOptions="Center"></Label>
+
+            <Button Text="Português / Literatura" Clicked="Btn_Por_2ano" />
+            <Button Text="Matemática" Clicked="Btn_Mat_2ano" />
+            <Button Text="Biologia" Clicked="Btn_Bio_2ano" />
+            <Button Text="Física" Clicked="Btn_Fis_2ano" />
+            <Button Text="Química" Clicked="Btn_Qui_2ano" />
+            <Button Text="Física" Clicked="Btn_Fis_2ano" />
+            <Button Text="História" Clicked="Btn_His_2ano" />
+            <Button Text="Geografia" Clicked="Btn_Geo_2ano" />
+            <Button Text="Inglês" Clicked="Btn_Ing_2ano" />
+            <Button Text="Educação Física" Clicked="Btn_Edf_2ano" />
+
+            <Button Text="Ética" Clicked="Btn_Eti_2ano" />
+            <Button Text="Sociologia" Clicked="Btn_Soc_2ano" />
+
+            <Label Text="- *Curso Técnico* -" HorizontalOptions="Center"></Label>
+
+              <!--  <Button Text="Banco de Dados 2" Clicked="Btn_Aps_1ano" />
+               <Button Text="Programação Web 2" Clicked="Btn_Pw1_1ano" />
+                <Button Text="Sistema Embarcados" Clicked="Btn_Bd1_1ano" />
+                <Button Text="Desenvolvimento de Sistema" Clicked="Btn_Dsg_1ano" /> 
+            
+            
+            PRECISA FAZER
+            -->
+                
+            
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

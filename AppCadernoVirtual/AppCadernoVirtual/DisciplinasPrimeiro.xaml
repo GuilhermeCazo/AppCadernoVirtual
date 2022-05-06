@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppCadernoVirtual.DisciplinasPrimeiro">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+
+                <Label Text="- *Ensino Medio* -" HorizontalOptions="Center"> </Label>
+            <!-- Um texto na tela não interagível com o usuário, onde podemos mostrar ou explicar algo -->
+            
+            <Button Text="Português / Literatura" Clicked="Btn_Por_1ano" />
+            <Button Text="Matemática" Clicked="Btn_Mat_1ano" />
+            <Button Text="Biologia" Clicked="Btn_Bio_1ano" />
+            <Button Text="Física" Clicked="Btn_Fis_1ano" />
+            <Button Text="Química" Clicked="Btn_Qui_1ano" />
+            <Button Text="Física" Clicked="Btn_Fis_1ano" />
+            <Button Text="História" Clicked="Btn_His_1ano" />
+            <Button Text="Geografia" Clicked="Btn_Geo_1ano" />
+            <Button Text="Inglês" Clicked="Btn_Ing_1ano" />
+            <Button Text="Educação Física" Clicked="Btn_Edf_1ano" />
+
+            <Button Text="Artes" Clicked="Btn_Art_1ano" />
+
+                <Label Text="- *Curso Técnico* -" HorizontalOptions="Center"</Label>
+
+                <Button Text="Analise de Projeto de Sistema" Clicked="Btn_Aps_1ano" />
+                <Button Text="Programação Web 1" Clicked="Btn_Pw1_1ano" />
+                <Button Text="Banco de Dados" Clicked="Btn_Bd1_1ano" />
+                <Button Text="Design" Clicked="Btn_Dsg_1ano" />
+                <Button Text="Fundamentos da Informática" Clicked="Btn_Fdi_1ano" />
+                <Button Text="Lógica e Programacação de Algoritimo" Clicked="Btn_Lpa_1ano" />
+
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

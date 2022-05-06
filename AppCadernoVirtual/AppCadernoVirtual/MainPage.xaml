@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppCadernoVirtual.MainPage">
+
+    <StackLayout>
+
+        <!-- Botão: É um elemento que recebe uma ação realizada pelo usuário (toque) 
+        e utilizar isso para realizar uma função dentro do código, para que alguma ação 
+        seja feita pelo programa-->
+        
+        <Button Text="1° Ano" Clicked="Btn_1ano" />
+
+        <!-- O elemento "Text" será o que estará escrito dentro do Botão-->
+        
+        <!-- O elemento "Clicked" será o nome dado ao manipulador de eventos 
+        que fará o botão funcionar durante o código, ele será aplicado em uma 
+        função pra ser usado quando o botão for clicado, o manipulador vária 
+        de acordo com o botão, a função tamém vai mudar evidentemente -->
+        <Button Text="2° Ano" Clicked="Btn_2ano" />
+        <Button Text="3° Ano" Clicked="Btn_3ano" />
+    </StackLayout>
+
+</ContentPage>

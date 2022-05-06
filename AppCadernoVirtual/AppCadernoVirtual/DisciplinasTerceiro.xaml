@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppCadernoVirtual.DisciplinasTerceiro">
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout>
+
+                <Label Text="- *Ensino Medio* -" HorizontalOptions="Center"></Label>
+
+            <Button Text="Português / Literatura" Clicked="Btn_Por_3ano" />
+            <Button Text="Matemática" Clicked="Btn_Mat_3ano" />
+            <Button Text="Biologia" Clicked="Btn_Bio_3ano" />
+            <Button Text="Física" Clicked="Btn_Fis_3ano" />
+            <Button Text="Química" Clicked="Btn_Qui_3ano" />
+            <Button Text="Física" Clicked="Btn_Fis_3ano" />
+            <Button Text="História" Clicked="Btn_His_3ano" />
+            <Button Text="Geografia" Clicked="Btn_Geo_3ano" />
+            <Button Text="Inglês" Clicked="Btn_Ing_3ano" />
+            <Button Text="Educação Física" Clicked="Btn_Edf_3ano" />
+
+            <Button Text="Sociologia" Clicked="Btn_Soc_3ano" />
+
+                <Label Text="- *Curso Técnico* -" HorizontalOptions="Center"></Label>
+
+        </StackLayout>
+            </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
