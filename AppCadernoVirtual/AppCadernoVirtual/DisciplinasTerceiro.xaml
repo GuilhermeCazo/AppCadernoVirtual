@@ -22,8 +22,15 @@
             <Button Text="Sociologia" Clicked="Btn_Soc_3ano" />
 
                 <Label Text="- *Curso Técnico* -" HorizontalOptions="Center"></Label>
+            
 
-        </StackLayout>
+                <Button Text="Programação Web 3" Clicked="Btn_Pw3_3ano" />
+                <Button Text="Redes" Clicked="Btn_Red_3ano" />
+                <Button Text="Qualidade e teste de software" Clicked="Btn_Qts_3ano" />
+                <Button Text="Mobile 2" Clicked="Btn_Mb2_3ano" />
+                <Button Text="Trabalho de Conclusão de Curso" Clicked="Btn_Tcc_3ano" />
+
+            </StackLayout>
             </ScrollView>
     </ContentPage.Content>
 </ContentPage>

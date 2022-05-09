@@ -4,5 +4,37 @@
              x:Class="AppCadernoVirtual.App">
     <Application.Resources>
 
+        <!-- Definimos aqui Estilos e formatações para oelementos da view -->
+
+        <Style TargetType="ContentPage"
+               ApplyToDerivedTypes="True">
+           
+
+            <Setter Property="BackgroundColor" Value="	#F5F5F5" />
+
+        </Style>
+
+        <Style TargetType="Button"
+               ApplyToDerivedTypes="True">
+
+            <Setter Property="BackgroundColor" Value="	#40E0D0" />
+            <Setter Property="TextColor" Value="#0E0047 " />
+            
+
+        </Style>
+
+        <Style TargetType="Label"
+               ApplyToDerivedTypes="True">
+
+            <Setter Property="FontAttributes" Value="Bold" />
+            <Setter Property="HorizontalOptions" Value="CenterAndExpand" />
+            <Setter Property="HeightRequest" Value="50" />
+            <Setter Property="FontSize" Value="Title" />
+            <Setter Property="TextColor" Value="Black" />
+
+        </Style>
+
+
+
     </Application.Resources>
 </Application>

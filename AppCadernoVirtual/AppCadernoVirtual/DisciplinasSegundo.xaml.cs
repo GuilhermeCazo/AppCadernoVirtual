@@ -80,6 +80,32 @@ namespace AppCadernoVirtual
 
         }
 
+        // Curso
+
+        private void Btn_Bd2_2ano(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Segundo.Bd2_2());
+        }
+
+        private void Btn_Pw2_2ano(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Segundo.Pw2_2());
+        }
+
+        private void Btn_Sem_2ano(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Segundo.Sem_2());
+        }
+
+        private void Btn_Des_2ano(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Segundo.Des_2());
+        }
+        private void Btn_Mb1_2ano(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Segundo.Mb1_2());
+        }
+
 
     }
 }

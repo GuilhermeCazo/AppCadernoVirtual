@@ -75,7 +75,26 @@ namespace AppCadernoVirtual
 
         //ensino tecnico
 
-
+        private void Btn_Pw3_3ano(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Terceiro.Pw3_3());
+        }
+        private void Btn_Red_3ano(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Terceiro.Red_3());
+        }
+        private void Btn_Qts_3ano(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Terceiro.Qts_3());
+        }
+        private void Btn_Mb2_3ano(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Terceiro.Mb2_3());
+        }
+        private void Btn_Tcc_3ano(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Terceiro.Tcc_3());
+        }
 
 
 

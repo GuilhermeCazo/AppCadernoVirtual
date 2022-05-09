@@ -24,16 +24,14 @@
 
             <Label Text="- *Curso Técnico* -" HorizontalOptions="Center"></Label>
 
-              <!--  <Button Text="Banco de Dados 2" Clicked="Btn_Aps_1ano" />
-               <Button Text="Programação Web 2" Clicked="Btn_Pw1_1ano" />
-                <Button Text="Sistema Embarcados" Clicked="Btn_Bd1_1ano" />
-                <Button Text="Desenvolvimento de Sistema" Clicked="Btn_Dsg_1ano" /> 
-            
-            
-            PRECISA FAZER
-            -->
-                
-            
+               <Button Text="Banco de Dados 2" Clicked="Btn_Bd2_2ano" />
+               <Button Text="Programação Web 2" Clicked="Btn_Pw2_2ano" />
+               <Button Text="Sistema Embarcados" Clicked="Btn_Sem_2ano" />
+               <Button Text="Desenvolvimento de Sistema" Clicked="Btn_Des_2ano" />
+               <Button Text="Mobile 1" Clicked="Btn_Mb1_2ano" />
+
+
+
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

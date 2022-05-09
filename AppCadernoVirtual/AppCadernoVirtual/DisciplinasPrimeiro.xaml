@@ -6,6 +6,10 @@
         <ScrollView>
             <StackLayout>
 
+            <!-- ScrollView: Permite que o usuário abaixe ou suba a tela dependendo da nescessidade -->
+            <!-- StackLayout: Onde os elementos da view estarão disposto, ali é como uma tela em branco para colocarmos os elementos-->
+
+
                 <Label Text="- *Ensino Medio* -" HorizontalOptions="Center"> </Label>
             <!-- Um texto na tela não interagível com o usuário, onde podemos mostrar ou explicar algo -->
             
@@ -22,7 +26,7 @@
 
             <Button Text="Artes" Clicked="Btn_Art_1ano" />
 
-                <Label Text="- *Curso Técnico* -" HorizontalOptions="Center"</Label>
+                <Label Text="- *Curso Técnico* -" HorizontalOptions="Center" />
 
                 <Button Text="Analise de Projeto de Sistema" Clicked="Btn_Aps_1ano" />
                 <Button Text="Programação Web 1" Clicked="Btn_Pw1_1ano" />
